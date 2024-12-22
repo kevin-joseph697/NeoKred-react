@@ -1,8 +1,21 @@
-# React + Vite
+Overview
+The frontend of the real-time Markdown editor is built using React.js. It provides a simple interface for users to type Markdown and view the rendered HTML in real-time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+User Guide for rendering html output using editor
+1. # Heading1
+2. ## Heading 2
+3. **Bold Text**
+4. *Italic Text*
+5. - List Item
 
-Currently, two official plugins are available:
+Install Dependencies:
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run the Development Server:
+npm run dev
+
+Build the Production Version
+npm run build
+
+
+
