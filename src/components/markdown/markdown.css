@@ -1,0 +1,38 @@
+.container{
+    padding: 10px;
+    min-height: 96vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(14, 13, 13);
+    color: white;
+
+}
+.editor{
+    width: 50vw;
+    border-right: 2px solid grey;
+    margin-right: 15px;
+}
+.editor  textarea{
+    resize: none;
+    border: none;
+    outline: none;
+    width: 45vw;
+    height: 70vh;
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+.preview{
+    width: 45vw;
+}
+.preview div{
+    width: 100%;
+}
+.preview p{
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+h5{
+    color: white;
+}
